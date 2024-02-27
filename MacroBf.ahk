@@ -22,13 +22,3 @@ $V::
   While GetKeyState("v","P")
     Send, {v}
 Return
-
-$LButton::
-  While GetKeyState("LButton","P")
-    Send, {LButton}
-Return
-
-$RButton::
-  While GetKeyState("RButton","P")
-    Send, {RButton}
-Return
